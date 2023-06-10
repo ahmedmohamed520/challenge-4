@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="general.css" />
+        <title>Frontend Mentor | News homepage</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <a href="/" class="logo">
+                    <img src="/assets/images/logo.svg" alt="logo" />
+                </a>
+                <div class="overlay">
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="/" class="link">Home</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="/" class="link">New</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="/" class="link">Popular</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="/" class="link">Trending</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="/" class="link">Categories</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-toggler">
+                    <img src="/assets/images/icon-menu.svg" alt="menu" id="open" />
+                    <img src="/assets/images/icon-menu-close.svg" alt="menu" id="close" class="hide" />
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <section class="articles-container">
+                <div class="main-article">
+                    <div class="article-image">
+                        <img src="./assets/images/image-web-3-desktop.jpg" alt="image" class="desk-img" />
+                        <img src="./assets/images/image-web-3-mobile.jpg" alt="image" class="mob-img" />
+                    </div>
+
+                    <div class="col-2">
+                        <div class="article-title"><h1 class="title">The Bright Future of Web 3.0?</h1></div>
+                        <div class="article-info">
+                            <p class="text">
+                                We dive into the next evolution of the web that claims to put the power of the
+                                platforms back into the hands of the people. But is it really fulfilling its
+                                promise?
+                            </p>
+                            <button class="btn">Read more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="new-articles">
+                    <h2 class="h2">New</h2>
+
+                    <div class="article">
+                        <a href="/" class="article-link">
+                            <h3>Hydrogen VS Electric Cars</h3>
+                            <p class="text article-text">
+                                Will hydrogen-fueled cars ever catch up to EVs?
+                            </p></a
+                        >
+                    </div>
+                    <div class="article">
+                        <a href="/" class="article-link">
+                            <h3>The Downsides of AI Artistry</h3>
+                            <p class="text article-text">
+                                What are the possible adverse effects of on-demand AI image generation?
+                            </p></a
+                        >
+                    </div>
+                    <div class="article">
+                        <a href="/" class="article-link">
+                            <h3>Is VC Funding Drying Up?</h3>
+                            <p class="text article-text">
+                                Private funding by VC firms is down 50% YOY. We take a look at what that
+                                means.
+                            </p></a
+                        >
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="container">
+            <div class="col-3">
+                <a href="/" class="card">
+                    <div class="card-img"><img src="/assets/images/image-retro-pcs.jpg" alt="pcs" /></div>
+                    <div class="card-body">
+                        <div class="card-num">01</div>
+                        <h3 class="card-title">Reviving Retro PCs</h3>
+                        <p class="text">What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </a>
+
+                <a href="/" class="card">
+                    <div class="card-img">
+                        <img src="/assets/images/image-top-laptops.jpg" alt="laptops" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-num">02</div>
+                        <h3 class="card-title">Top 10 Laptops of 2022</h3>
+                        <p class="text">Our best picks for various needs and budgets.</p>
+                    </div>
+                </a>
+                <a href="/" class="card">
+                    <div class="card-img">
+                        <img src="/assets/images/image-gaming-growth.jpg" alt="Game" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-num">03</div>
+                        <h3 class="card-title">The Growth of Gaming</h3>
+                        <p class="text">How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

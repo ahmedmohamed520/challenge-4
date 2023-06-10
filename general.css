@@ -1,0 +1,32 @@
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/static/Inter-ExtraBold.ttf");
+    font-weight: 800;
+}
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-size: 93.75%;
+}
